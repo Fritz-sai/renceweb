@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="css/animations.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    h4{
+      font-size: 40px;
+    }
+  </style>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -44,7 +49,7 @@
           <li><a href="owner.html">Owner</a></li>
         </ul>
       </nav>
-      <a href="order.html" class="btn primary">Order Now</a>
+      <a href="order.html" class="btn primary">Cart</a>
       <div class="mobile-menu-toggle">
         <span></span>
         <span></span>
@@ -66,35 +71,51 @@
         <h3>Hot Coffee</h3>
         <div class="menu-items">
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/brew.webp" alt="Espresso">
+            </div>
             <div class="menu-item-header">
               <h4>Espresso</h4>
               <span class="price">$3.50</span>
             </div>
             <p>Pure and intense shot of premium coffee</p>
+            <button class="btn add-to-cart" data-name="Espresso" data-price="3.50" data-image="Img/brew.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/caffucino.webp" alt="Cappuccino">
+            </div>
             <div class="menu-item-header">
               <h4>Cappuccino</h4>
               <span class="price">$4.50</span>
             </div>
             <p>Espresso with steamed milk and rich foam</p>
+            <button class="btn add-to-cart" data-name="Cappuccino" data-price="4.50" data-image="Img/caffucino.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/latte.webp" alt="Caffè Latte">
+            </div>
             <div class="menu-item-header">
               <h4>Caffè Latte</h4>
               <span class="price">$4.75</span>
             </div>
             <p>Espresso with steamed milk and light foam</p>
+            <button class="btn add-to-cart" data-name="Caffè Latte" data-price="4.75" data-image="Img/latte.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/mocha.webp" alt="Mocha">
+            </div>
             <div class="menu-item-header">
               <h4>Mocha</h4>
               <span class="price">$5.00</span>
             </div>
             <p>Espresso with chocolate and steamed milk</p>
+            <button class="btn add-to-cart" data-name="Mocha" data-price="5.00" data-image="Img/mocha.webp">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -103,27 +124,39 @@
         <h3>Cold Coffee</h3>
         <div class="menu-items">
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/brew.webp" alt="Cold Brew">
+            </div>
             <div class="menu-item-header">
               <h4>Cold Brew</h4>
               <span class="price">$4.75</span>
             </div>
             <p>Smooth, slow-steeped coffee served over ice</p>
+            <button class="btn add-to-cart" data-name="Cold Brew" data-price="4.75" data-image="Img/brew.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/icelatte.webp" alt="Iced Latte">
+            </div>
             <div class="menu-item-header">
               <h4>Iced Latte</h4>
               <span class="price">$4.50</span>
             </div>
             <p>Chilled espresso with cold milk and ice</p>
+            <button class="btn add-to-cart" data-name="Iced Latte" data-price="4.50" data-image="Img/icelatte.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="Img/fff.webp" alt="Frappuccino">
+            </div>
             <div class="menu-item-header">
               <h4>Frappuccino</h4>
               <span class="price">$5.50</span>
             </div>
             <p>Blended coffee with milk and ice</p>
+            <button class="btn add-to-cart" data-name="Frappuccino" data-price="5.50" data-image="Img/fff.webp">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -132,27 +165,39 @@
         <h3>Pastries</h3>
         <div class="menu-items">
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="images/menu/croissant.jpg" alt="Croissant">
+            </div>
             <div class="menu-item-header">
               <h4>Croissant</h4>
               <span class="price">$3.75</span>
             </div>
             <p>Buttery, flaky French pastry</p>
+            <button class="btn add-to-cart" data-name="Croissant" data-price="3.75" data-image="Img/brew.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="images/menu/chocolate-muffin.jpg" alt="Chocolate Muffin">
+            </div>
             <div class="menu-item-header">
               <h4>Chocolate Muffin</h4>
               <span class="price">$3.50</span>
             </div>
             <p>Rich chocolate muffin with chocolate chips</p>
+            <button class="btn add-to-cart" data-name="Chocolate Muffin" data-price="3.50" data-image="Img/brew.webp">Add to Cart</button>
           </div>
 
           <div class="menu-item fade-in">
+            <div class="menu-item-image">
+              <img src="images/menu/cinnamon-roll.jpg" alt="Cinnamon Roll">
+            </div>
             <div class="menu-item-header">
               <h4>Cinnamon Roll</h4>
               <span class="price">$4.25</span>
             </div>
             <p>Warm roll with cinnamon and cream cheese frosting</p>
+            <button class="btn add-to-cart" data-name="Cinnamon Roll" data-price="4.25" data-image="Img/brew.webp">Add to Cart</button>
           </div>
         </div>
       </div>
@@ -210,5 +255,113 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script>
+    // Cart functionality
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Add to cart functionality
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+      button.addEventListener('click', function() {
+        const item = {
+          name: this.dataset.name,
+          price: this.dataset.price,
+          image: this.dataset.image,
+          quantity: 1
+        };
+
+        // Check if item already exists in cart
+        const existingItem = cart.find(cartItem => cartItem.name === item.name);
+        if (existingItem) {
+          existingItem.quantity += 1;
+        } else {
+          cart.push(item);
+        }
+
+        // Save cart to localStorage
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        // Show success message
+        const successMessage = document.createElement('div');
+        successMessage.className = 'success-message';
+        successMessage.textContent = `${item.name} added to cart!`;
+        document.body.appendChild(successMessage);
+
+        // Remove success message after 2 seconds
+        setTimeout(() => {
+          successMessage.remove();
+        }, 2000);
+
+        // Update cart count in header if it exists
+        updateCartCount();
+      });
+    });
+
+    // Update cart count in header
+    function updateCartCount() {
+      const cartCount = document.querySelector('.cart-count');
+      if (cartCount) {
+        const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+        cartCount.textContent = totalItems;
+      }
+    }
+
+    // Initialize cart count
+    updateCartCount();
+  </script>
+  <style>
+    .add-to-cart {
+      margin-top: 10px;
+      width: 100%;
+      background-color: var(--accent-color, #5D4037);
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+      background-color: var(--accent-color-dark, #3E2723);
+    }
+
+    .success-message {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 4px;
+      z-index: 1000;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .cart-count {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background-color: #ff4444;
+      color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }
+  </style>
 </body>
 </html>
